@@ -1,7 +1,6 @@
 #!/bin/sh
 
-if [ 1 ]; then 
-    sex -c shela.sex ../v1.1_mosaics/ch1s+ch2s_detect.fits,../v1.1_mosaics/ch2s_wavg.fits\
+sex -c shela.sex ../v1.1_mosaics/ch1s+ch2s_detect.fits,../v1.1_mosaics/ch2s_wavg.fits\
     -WEIGHT_TYPE  MAP_WEIGHT,MAP_WEIGHT\
     -WEIGHT_IMAGE ../v1.1_mosaics/ch1s+ch2s_detect_wht.fits,../v1.1_mosaics/ch2s_wavg_wht.fits\
     -DETECT_THRESH 1.5\
@@ -11,7 +10,6 @@ if [ 1 ]; then
     -CATALOG_TYPE FITS_LDAC\
     -PARAMETERS_NAME  ch1_tphot.param\
     -SEEING_FWHM 1.7,1.72
-fi
 
 # EPOCH 1
 sex -c shela.sex ../v1.1_mosaics/ch1s+ch2s_detect.fits,../v1.1_mosaics/ep1_ch2_wavg.fits\
