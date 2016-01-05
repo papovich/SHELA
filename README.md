@@ -1,6 +1,8 @@
 # SHELA
 This repository contains scripts and files for SHELA IRAC data and reduction
 
+SHELA Catalog constructed with SExtractor (http://www.astromatic.net/software/sextractor) version 2.19.5 (2014-08-26)
+
 Files include:
 ch1_3p6mag_prf.fits
   - 3.6 micron PRF for IRAC ch1 image at 0.8"/pixel scale
